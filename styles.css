@@ -1,0 +1,48 @@
+* {
+  font-family: "Libre Baskerville", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#add-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#tasks-list {
+  display: grid;
+  justify-items: center;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 18fr 1fr;
+  width: 50%;
+}
+
+#erase-button {
+  width: 25px;
+  height: 25px;
+  justify-self: end;
+}
+
+#tasks-list > li > input {
+  order: -1;
+  justify-self: start;
+}
+
+#bottom-info {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25%;
+  width: 50%;
+}
