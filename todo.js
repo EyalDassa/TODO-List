@@ -27,6 +27,7 @@ function addTask(taskInput, taskList) {
   // add task to list
   taskList.appendChild(li).appendChild(checkBox);
   li.appendChild(eraseButton);
+
   input.value = "";
   displayBottomInfo();
 }
